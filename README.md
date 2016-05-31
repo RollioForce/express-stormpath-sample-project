@@ -1,5 +1,7 @@
-# Express-Stormpath Example Project
-A simple Express.js web application to demonstrate core Stormpath functionality.
+# Rollio User Authentication App
+This is a simple Express.js app, forked from `stormpath/express-stormpath-sample-project` for jump-starting Stormpath integration.
+
+Below is the original documentation from the project.
 
 ### Get Started!
 
