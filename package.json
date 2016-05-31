@@ -1,14 +1,14 @@
 {
-  "name": "stormpath-express-profile-example",
+  "name": "rollio-user-authentication-app",
   "version": "1.0.0",
-  "description": "A simple Express.js web application to demonstrate core Stormpath functionality.",
+  "description": "A simple Express.js web application for user authentication for Rollio",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stormpath/stormpath-express-profile-example.git"
+    "url": "https://github.com/RollioForce/user-authentication-app.git"
   },
   "keywords": [
     "stormpath",
@@ -22,9 +22,9 @@
   "author": "Stormpath, Inc.",
   "license": "Apache",
   "bugs": {
-    "url": "https://github.com/stormpath/stormpath-express-profile-example/issues"
+    "url": "https://github.com/RollioForce/user-authentication-app/issues"
   },
-  "homepage": "https://github.com/stormpath/stormpath-express-profile-example",
+  "homepage": "https://github.com/RollioForce/user-authentication-app",
   "dependencies": {
     "body-parser": "^1.14.2",
     "express": "^4.13.3",

@@ -16,7 +16,7 @@ var app = express();
 app.set('trust proxy',true);
 app.set('view engine', 'jade');
 app.set('views', './lib/views');
-app.locals.siteName = 'Express-Stormpath Example Project';
+app.locals.siteName = 'Rollio User Authentication App';
 
 /**
  * Stormpath initialization.
@@ -46,4 +46,3 @@ var port = process.env.PORT || 3000;
 app.listen(port, function () {
   console.log('Server listening on http://localhost:' + port);
 });
-
