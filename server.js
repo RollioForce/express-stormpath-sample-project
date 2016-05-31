@@ -5,6 +5,8 @@ var stormpath = require('express-stormpath');
 
 var routes = require('./lib/routes');
 
+var baseUrl = "https://enterprise.stormpath.io/v1";
+
 /**
  * Create the Express application.
  */
@@ -25,6 +27,7 @@ app.locals.siteName = 'Rollio User Authentication App';
 console.log('Initializing Stormpath');
 
 app.use(stormpath.init(app, {
+  baseUrl: baseUrl,
   expand: {
     customData: true
   }
@@ -44,5 +47,5 @@ app.on('stormpath.ready',function () {
  */
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
-  console.log('Server listening on http://localhost:' + port);
+  console.log('Server listening on ' + baseUrl + ':' + port);
 });
