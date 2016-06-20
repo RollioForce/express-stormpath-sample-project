@@ -28,6 +28,13 @@ app.use(stormpath.init(app, {
   baseUrl: `https://enterprise.stormpath.io/v1`,
   expand: {
     customData: true
+  },
+  web: {
+    me: {
+      expand: {
+        customData: true
+      }
+    }
   }
 }));
 
